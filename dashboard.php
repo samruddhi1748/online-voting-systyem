@@ -98,7 +98,7 @@ $status = isset($userdata['STATUS']) ? ($_SESSION['userdata']['STATUS'] == 0 ? '
     <div id="mainsection">
         <center>
         <div id="headersection">
-            <button id="backbtn"><a href="login.html">Back</a></button>
+            <button id="backbtn"><a href="index.html">Back</a></button>
             <button id="logoutbtn"><a href="logout.php">Logout</a></button>
             <h1>ONLINE VOTING SYSTEM</h1>
         </div>

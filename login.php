@@ -30,7 +30,7 @@ if(isset($_POST['mobile'], $_POST['password'], $_POST['role'])) {
             exit(); 
         } else {
            
-            echo '<script>alert("User not found!"); window.location="login.html";</script>';
+            echo '<script>alert("User not found!"); window.location="index.html";</script>';
             exit();
         }
     } else {
