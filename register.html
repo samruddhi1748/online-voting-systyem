@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <style>
+        #address{
+            width:30%;
+        }
+        #imagepart{
+            border:1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width:30%;
+            
+        }
+       #role{
+        border:1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width:30%;
+            
+       }
+       #role select{
+        border-radius: 5px;
+        padding: 10px;
+       }
+    </style>
+    <center>
+        <div id="headersection">
+    <h1>ONLINE VOTING SYSTEM</h1>
+    <hr>
+        </div>
+        <div id="bodysection">
+    <h3>Registration</h3>
+    <form action="register.php" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="enter name">
+        <input type="number" name="mobile" placeholder="enter mobile "><br><br>
+        <input type="password" name="password" placeholder="enter password">
+        <input type="password" name="cpassword" placeholder="confirm password"><br><br>
+        <input id="address" type="text" name="address" placeholder="enter address"><br><br>
+        
+        <div id="imagepart">
+        Upload image:<input  type="file" name="photo">
+        </div>
+        <br>
+       <div id="role">
+        select your role:<select name="role" >
+            <option value="1">Voter</option>
+            <option value="2">Group</option>
+        </select>
+       </div>
+        
+        <br>
+        <button 
+        style="padding:5px;
+        border-radius:5px;
+        background-color:#48dbfb;
+        color:white;">
+        Register</button><br><br>
+        Already user?<a href="login.html">login here</a>
+
+
+    </form>
+    </div>
+    </center>
+</body>
+</html>
